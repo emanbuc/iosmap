@@ -23,6 +23,8 @@
 		A81F9AD517AB7F51002D0E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81F9AB017AB7F51002D0E09 /* Foundation.framework */; };
 		A81F9ADD17AB7F51002D0E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A81F9ADB17AB7F51002D0E09 /* InfoPlist.strings */; };
 		A81F9AE017AB7F51002D0E09 /* MapKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A81F9ADF17AB7F51002D0E09 /* MapKitDemoTests.m */; };
+		A81F9AEA17AB7FDD002D0E09 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81F9AE917AB7FDD002D0E09 /* MapKit.framework */; };
+		A81F9AEC17AB7FE7002D0E09 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81F9AEB17AB7FE7002D0E09 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		A81F9ADC17AB7F51002D0E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A81F9ADE17AB7F51002D0E09 /* MapKitDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapKitDemoTests.h; sourceTree = "<group>"; };
 		A81F9ADF17AB7F51002D0E09 /* MapKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitDemoTests.m; sourceTree = "<group>"; };
+		A81F9AE917AB7FDD002D0E09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A81F9AEB17AB7FE7002D0E09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81F9AEC17AB7FE7002D0E09 /* CoreLocation.framework in Frameworks */,
+				A81F9AEA17AB7FDD002D0E09 /* MapKit.framework in Frameworks */,
 				A81F9AAF17AB7F51002D0E09 /* UIKit.framework in Frameworks */,
 				A81F9AB117AB7F51002D0E09 /* Foundation.framework in Frameworks */,
 				A81F9AB317AB7F51002D0E09 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +93,8 @@
 		A81F9AA217AB7F51002D0E09 = {
 			isa = PBXGroup;
 			children = (
+				A81F9AEB17AB7FE7002D0E09 /* CoreLocation.framework */,
+				A81F9AE917AB7FDD002D0E09 /* MapKit.framework */,
 				A81F9AB417AB7F51002D0E09 /* MapKitDemo */,
 				A81F9AD817AB7F51002D0E09 /* MapKitDemoTests */,
 				A81F9AAD17AB7F51002D0E09 /* Frameworks */,
